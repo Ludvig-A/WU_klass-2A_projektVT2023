@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
     color: white;
-
+    overflow: hidden;
   }
 
 
@@ -53,11 +53,19 @@ footer a {
   background-color: #FCD34D;
   transition: all 0.3s ease;
   text-align: center;
-  margin-top: 0vh;  
 }
 
 footer {
   text-align: center;
+  margin-top: 0vh;
+}
+
+#contact-footer {
+  margin-top: 40vh;
+}
+
+#products-footer {
+  margin-top: 5vh;
 }
 
 footer a:hover {
@@ -65,4 +73,19 @@ footer a:hover {
   color: #000;
 }
 
+#contact-information {
+  padding-top: 50px;
+  display: flex;  
+  justify-content: space-around;
+}
+
+#our-products {
+  display: flex;  
+  justify-content: space-around;
+  padding: 10px 50px 0px 50px;
+}
+
+#copyright {
+  padding-top: 5px;
+}
 
