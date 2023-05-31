@@ -77,11 +77,25 @@ footer a:hover {
   color: #000;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #contact-information {
   padding-top: 50px;
-  display: flex;  
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 200px 200px;
+  grid-template-areas:
+  "ad ph"
+  "em so";
 }
+#contact-address {grid-area: ad;}
+#contact-phone {grid-area: ph;}
+#contact-email {grid-area: em;}
+#contact-social {grid-area: so;}
 
 #our-products {
   display: flex;  
